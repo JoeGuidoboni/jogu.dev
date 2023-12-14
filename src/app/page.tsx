@@ -1,3 +1,4 @@
+import NavBar from "@/components/navbar"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-zinc-950">
@@ -7,7 +8,7 @@ export default function Home() {
           <br></br>
           this is my portfolio
         </h1>
-        
+        <NavBar></NavBar>
       </div>
     </main>
   )
