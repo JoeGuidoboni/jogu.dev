@@ -4,7 +4,7 @@ import NavBar from "@/components/navbar";
 
 export default function Gallery() {
   return (
-    <main className="bg-zinc-950">
+    <main className="bg-zinc-950 pb-32">
       <NavBar></NavBar>
       <div className="w-full h-full font-mono flex items-center justify-center">
         <div className="max-w-5xl">

@@ -38,6 +38,10 @@ const Film = [
     {
         img: 'waves on the rocks.jpg',
         alt: 'Waves on the rocks'
+    },
+    {
+        img: 'tree sign.jpg',
+        alt: 'Careful above'
     }
   ]
 
