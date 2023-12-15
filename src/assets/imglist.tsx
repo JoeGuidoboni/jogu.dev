@@ -1,23 +1,43 @@
 const Film = [
     {
-      img: '000005340004.jpg',
+      img: 'dusk marsh.jpg',
       alt: 'A sunset in Hiltonhead, SC'
     },
     {
-        img: '000005340008.jpg',
+        img: 'boardwalk.jpg',
         alt: 'A boardwalk along a beach in Hiltonhead'
     },
     {
-        img: '000005340011.jpg',
+        img: 'sunset.jpg',
         alt: 'Sunset on Maui'
     },
     {
-        img: '000005340023.jpg',
+        img: 'sleeping cat.jpg',
         alt: 'Sleeping cat in Makawao, Maui'
     },
     {
-        img: '000005340024.jpg',
+        img: 'tree moss.jpg',
         alt: 'Tree Branches'
+    },
+    {
+        img: 'from the balcony.jpg',
+        alt: 'Dusk on a balcony'
+    },
+    {
+        img: 'lomo forest.jpg',
+        alt: 'Lomochrome Purple forest'
+    },
+    {
+        img: 'parking lot.jpg',
+        alt: 'From the parking lot'
+    },
+    {
+        img: 'porthole.jpg',
+        alt: 'A cargo ship'
+    },
+    {
+        img: 'waves on the rocks.jpg',
+        alt: 'Waves on the rocks'
     }
   ]
 
