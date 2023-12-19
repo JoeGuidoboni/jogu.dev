@@ -1,9 +1,21 @@
-import { ImageList, ImageListItem } from "@mui/material";
-import { isMobile } from "react-device-detect";
+import { ImageList, ImageListItem, modalClasses, Modal } from "@mui/material";
 import Film from "../../assets/imglist";
 import NavBar from "@/components/navbar";
 
 export default function Gallery() {
+  // const handleClose = () => {
+  //   setOpen(false);
+  // }
+  
+  // const handleImage = (value) => {
+  //   setImage(value);
+  //   setOpen(true);
+  // }
+     
+  // const [open, setOpen] = useState(false);
+  // const [image, setImage] = useState("false");
+
+
   return (
     <main className="bg-zinc-950 pb-32">
       <NavBar></NavBar>
@@ -25,9 +37,17 @@ export default function Gallery() {
               </ImageListItem>
             ))}
           </ImageList>
+          {/* <Modal
+            className={modalClasses}
+            open={open} 
+            >
+          </Modal> */}
         </div>
       </div>
     </main>
   );
 }
+
+
+
 
