@@ -1,7 +1,7 @@
 const Film = [
     {
-      img: 'dusk marsh.jpg',
-      alt: 'A sunset in Hiltonhead, SC'
+        img: 'dusk marsh.jpg',
+        alt: 'A sunset in Hiltonhead, SC'
     },
     {
         img: 'boardwalk.jpg',
@@ -44,5 +44,6 @@ const Film = [
         alt: 'Careful above'
     }
   ]
+  
 
   export default Film
