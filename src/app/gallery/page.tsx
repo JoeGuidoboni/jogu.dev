@@ -16,7 +16,7 @@ export default function Gallery() {
   // const [image, setImage] = useState("false");
 
   return (
-    <main className="bg-zinc-900 pb-32 font-mono">
+    <main className="bg-zinc-900 pb-32 font-mono selection:text-sky-500">
       <NavBar></NavBar>
       <div className="w-full h-full flex items-center justify-center">
         <div className="max-w-5xl">
