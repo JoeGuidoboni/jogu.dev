@@ -6,7 +6,8 @@ export default function Home() {
     <main className="bg-zinc-900 min-h-screen font-mono">
       <NavBar></NavBar>
       <div className="flex z-10 max-h-screen w-full justify-end p-8">
-        <div className="basis-1/3 font-medium text-4xl tracking-tighter text-right p-4">
+        <div className="basis-1/3">
+        <div className="flex-1 font-medium text-4xl tracking-tighter text-right p-4">
           <div className="border-amber-400 border-r-2 border-b-2 p-2">
             hey, i&apos;m jogu
           </div>
@@ -22,12 +23,13 @@ export default function Home() {
             />
           </div>
         </div>
+        </div>
         <div className="basis-1/3 p-5 text-base">
           i&apos;m a software engineer with a passion for creating things that
-          help people, and that they enjoy using doing it. 
+          help people, and that they enjoy using them. 
           <br></br>
           <br></br>
-          i currently work at Fidelity Investments in Compensation Plan Management where my team and i configure compensation plans for Fidelity&apos;s 20,000+ financial reps.
+          i currently work at Fidelity Investments in Compensation Plan Management where my team configures compensation plans for Fidelity&apos;s 20,000+ financial reps.
           <br></br>
           <br></br>
           in my free time i like to build things that i hope people will enjoy interacting with, like a{" "}
@@ -38,7 +40,18 @@ export default function Home() {
             sarcastic dicord bot
           </a>{"."}
         </div>
-        <div className="basis-1/3 p-4"></div>
+        <div className="basis-1/3 p-4">
+          {/* <div className="">
+            contact
+          </div>
+          <ul>
+            <li>
+              <a>
+                email
+              </a>
+            </li>
+          </ul> */}
+        </div>
       </div>
     </main>
   );

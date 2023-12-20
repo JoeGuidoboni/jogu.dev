@@ -9,11 +9,11 @@ export default function NavBar() {
         <li className="flex display: table-caption; justify-start text-balance text-right text-2xl p-2 max-w-min border-amber-400 border-r-2 border-b-2">
           joe (jogu) guidoboni
         </li>
-        <li className="flex-none justify-end p-2 text-2xl">
+        <li className="flex-none justify-end px-4 py-2 text-2xl">
           <Link href={"/"}>about</Link>
         </li>
-        <li className="flex-none justify-end p-2 text-2xl">
-          <Link href={"/gallery"}>gallery</Link>  
+        <li className="flex-none justify-end px-4 py-2 text-2xl">
+          <Link href={"/gallery"}>photos</Link>  
         </li>
       </ul>
     </div>
