@@ -1,6 +1,6 @@
 import { ImageList, ImageListItem, modalClasses, Modal } from "@mui/material";
 import Film from "../../assets/imglist";
-import NavBar from "@/components/navbar";
+import NavBar from "@/components/navbar/navbar";
 
 export default function Gallery() {
   // const handleClose = () => {

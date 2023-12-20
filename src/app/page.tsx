@@ -1,6 +1,6 @@
-import NavBar from "@/components/navbar";
-import LeftBar from "./left-bar/page";
-import RightBar from "./right-bar/page";
+import NavBar from "@/components/navbar/navbar";
+import LeftBar from "@/components/left-bar/left-bar";
+import RightBar from "@/components/right-bar/right-bar";
 
 export default function Home() {
   return (
