@@ -4,22 +4,24 @@ import RightBar from "@/components/right-bar/right-bar";
 
 export default function Home() {
   return (
-    <main className="bg-zinc-900 min-h-screen font-mono selection:text-sky-500">
+    <main className="bg-zinc-900 h-screen font-mono selection:text-sky-500 overflow-hidden">
       <NavBar></NavBar>
-      <div className="flex z-10 max-h-screen w-full justify-end p-8">
-        <div className="basis-1/3">
+      <div className="flex z-10 h-full w-full justify-end p-8">
+        <div className="basis-1/4">
           <LeftBar></LeftBar>
         </div>
-        <div className="basis-1/3 p-5 text-base overflow-auto">
+        <div className="basis-1/2 p-5 pb-96 text-base overscroll-none overflow-y-auto">
           <div className="pb-4">
-            <h1 className="text-2xl text-right border-amber-400 border-r-2 border-b-2 p-2">about me</h1>
+            <h1 className="text-2xl text-right border-amber-400 border-r-2 border-b-2 p-2">
+              <a className="text-amber-400">:</a>about me
+            </h1>
           </div>
           i&apos;m a software engineer with a passion for creating things that
           help people, and that they enjoy using them.
           <br></br>
           <br></br>i currently work at Fidelity Investments in Compensation Plan
-          Management where my team configures compensation plans for
-          Fidelity&apos;s 20,000+ financial reps.
+          Management where my team configures compensation plans for all of
+          Fidelity&apos;s financial reps.
           <br></br>
           <br></br>
           in my free time i like to build things that i hope people will enjoy
@@ -35,15 +37,71 @@ export default function Home() {
           <br></br>
           <br></br>
           <br></br>
-          <div className="text-right border-amber-400 border-r-2 border-b-2 p-2">
-            <h1 className="text-2xl text-right">experience</h1>
-            <h2 className="text-lg text-right">Associate Software Engineer @ Fidelity Investments</h2>
-            <ul>
-
+          <div className="pb-12">
+            <div className="border-amber-400 border-r-2 border-b-2 p-2">
+              <h1 className="text-2xl text-right">
+                {" "}
+                <a className="text-amber-400">:</a>experience
+              </h1>
+              <h2 className="text-lg text-right">
+                Associate Software Engineer @ Fidelity Investments
+              </h2>
+              <h2 className="text-lg text-right">
+                Fall 2021 <a className="text-amber-400">-</a> Present
+              </h2>
+            </div>
+            <ul className="list-disc marker:text-amber-400 py-6">
+              <li>
+                Hired as part of Fidelity&apos;s LEAP Program, a selective
+                18-week early career development program which prepares
+                participants for a technical role at Fidelity
+              </li>
+              <li>
+                Worked as part of Sales Support & Compensation, configuring and
+                supporting compensation plans through SAP Commissions and
+                Advanced Workflow for 20,000+ Fidelity representatives
+              </li>
+              <li>
+                Developed a web scraper using Selenium to automatically retrieve
+                1600+ legacy SAP support cases and their attachments, saving
+                time by preventing the need to make redundant support cases in
+                the future
+              </li>
+              <li>
+                Improved maturity of Jenkins CI/CD pipeline by implementing
+                automatic deployment of database objects, reducing database
+                object deployment time from hours to seconds
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div className="border-amber-400 border-r-2 border-b-2 p-2">
+              <h2 className="text-lg text-right">
+                Cognitive Computing Platform Intern @ Fidelity Investments
+              </h2>
+              <h2 className="text-lg text-right">Summer 2020</h2>
+            </div>
+            <ul className="list-disc marker:text-amber-400 py-6">
+              <li>
+                Worked in an Agile setting to develop a Virtual Assistant for
+                the Fidelity Jobs Team using the Cognitive Computing
+                Platform&apos;s internal software
+              </li>
+              <li>
+                Collaborated with a group of interns to develop and test an
+                algorithm using NodeJS and GraphQL for matching internal
+                Fidelity employees with career coaches based on professional
+                interests, seniority, and other fields
+              </li>
+              <li>
+                Met and coordinated with the Fidelity Jobs Team to establish and
+                fulfill their needs as a customer and deliver an effective and
+                expandable product
+              </li>
             </ul>
           </div>
         </div>
-        <div className="basis-1/3 p-4">
+        <div className="basis-1/4 p-4">
           <RightBar></RightBar>
         </div>
       </div>
