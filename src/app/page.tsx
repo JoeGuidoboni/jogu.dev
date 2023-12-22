@@ -4,13 +4,13 @@ import RightBar from "@/components/right-bar/right-bar";
 
 export default function Home() {
   return (
-    <main className="bg-zinc-900 h-screen font-mono selection:text-sky-500 overflow-hidden">
+    <main className="bg-zinc-900 font-mono selection:text-sky-500 md:overflow-hidden md:h-screen">
       <NavBar></NavBar>
-      <div className="flex z-10 h-full w-full justify-end p-8">
+      <div className="flex-row lg:flex z-10 w-full p-8">
         <div className="basis-1/4">
           <LeftBar></LeftBar>
         </div>
-        <div className="basis-1/2 p-5 pb-96 text-base overscroll-none overflow-y-auto">
+        <div className="basis-1/2 p-5 md:pb-96 text-base md:overflow-y-auto">
           <div className="pb-4">
             <h1 className="text-2xl text-right border-amber-400 border-r-2 border-b-2 p-2">
               <a className="text-amber-400">:</a>about me
