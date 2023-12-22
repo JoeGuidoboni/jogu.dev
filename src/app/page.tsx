@@ -17,7 +17,7 @@ export default function Home() {
             </h1>
           </div>
           i&apos;m a software engineer with a passion for creating things that
-          help people, and that they enjoy using them.
+          help people, and that they enjoy using.
           <br></br>
           <br></br>i currently work at Fidelity Investments in Compensation Plan
           Management where my team configures compensation plans for all of
@@ -25,7 +25,14 @@ export default function Home() {
           <br></br>
           <br></br>
           in my free time i like to build things that i hope people will enjoy
-          interacting with, like this website, or a{" "}
+          interacting with like {" "}
+          <a
+            className="underline decoration-amber-400"
+            href="https://github.com/JoeGuidoboni/jogu.dev"
+          >
+            this website
+          </a>
+          , or a{" "}
           <a
             className="underline decoration-amber-400"
             href="https://github.com/JoeGuidoboni/umami"
