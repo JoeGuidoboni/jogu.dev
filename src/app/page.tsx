@@ -6,11 +6,11 @@ export default function Home() {
   return (
     <main className="bg-zinc-900 font-mono selection:text-sky-500 md:overflow-hidden md:h-screen">
       <NavBar></NavBar>
-      <div className="flex-row lg:flex z-10 w-full p-8">
+      <div className="flex-row  z-10 w-full md:flex md:h-full">
         <div className="basis-1/4">
           <LeftBar></LeftBar>
         </div>
-        <div className="basis-1/2 p-5 md:pb-96 text-base md:overflow-y-auto">
+        <div className="basis-1/2 p-5 text-base md:pb-48 md:overflow-y-auto">
           <div className="pb-4">
             <h1 className="text-2xl text-right border-amber-400 border-r-2 border-b-2 p-2">
               <a className="text-amber-400">:</a>about me
