@@ -1,5 +1,33 @@
 const Film = [
     {
+        img: 'momma goat.jpg',
+        alt: 'A mother goat from a goat farm in the mountains of Maui, HI'
+    },
+    {
+        img: 'baby goats.jpg',
+        alt: 'Baby goats from a goat farm'
+    },
+    {
+        img: 'sunrise.jpg',
+        alt: 'Sunrise from the first morning of our past trip'
+    },
+    {
+        img: 'golden hour.jpg',
+        alt: 'Driving down the west side of the island'
+    },
+    {
+        img: 'turtles.jpg',
+        alt: 'A bunch of turtles sleeping on a popular surf beach'
+    },
+    {
+        img: 'reflection.jpg',
+        alt: 'I dont remember where this one was taken'
+    },
+    {
+        img: 'parrot.jpg',
+        alt: 'A parrot that was at our hotel on Maui'
+    },
+    {
         img: 'dusk marsh.jpg',
         alt: 'A sunset in Hiltonhead, SC'
     },
