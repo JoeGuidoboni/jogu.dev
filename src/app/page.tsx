@@ -51,7 +51,7 @@ export default function Home() {
                 <a className="text-amber-400">:</a>experience
               </h1>
               <h2 className="text-lg text-right">
-                Associate Software Engineer @ Fidelity Investments
+                Full Stack Engineer @ Fidelity Investments
               </h2>
               <h2 className="text-lg text-right">
                 Fall 2021 <a className="text-amber-400">-</a> Present
